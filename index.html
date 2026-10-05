@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>For Ustad Bashir — Teacher's Day 2026</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         LOADER
+    ====================================================== -->
+
+    <div class="loader" id="loader">
+
+        <div class="loader-grid"></div>
+
+        <div class="loader-content">
+
+            <div class="loader-counter">
+                <span id="loaderNumber">0</span>
+                <span>%</span>
+            </div>
+
+            <div class="loader-line">
+                <span id="loaderProgress"></span>
+            </div>
+
+            <p>INITIALIZING EXPERIENCE</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main id="main">
+
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section class="hero scene">
+
+            <div class="hero-grid"></div>
+
+            <div class="hero-orbit orbit-one"></div>
+            <div class="hero-orbit orbit-two"></div>
+            <div class="hero-orbit orbit-three"></div>
+
+            <div class="hero-light"></div>
+
+            <div class="hero-code code-one">
+                &lt;learn /&gt;
+            </div>
+
+            <div class="hero-code code-two">
+                const future = true;
+            </div>
+
+            <div class="hero-code code-three">
+                function grow()
+            </div>
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    TEACHER'S DAY / 2026
+                </p>
+
+                <h1>
+                    <span>THE</span>
+                    <span>CODE</span>
+                    <span>COMES</span>
+                    <span>ALIVE.</span>
+                </h1>
+
+                <div class="hero-bottom">
+
+                    <div class="hero-line"></div>
+
+                    <p>
+                        SCROLL TO BEGIN
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             QUESTION
+        ================================================== -->
+
+        <section class="question scene">
+
+            <div class="section-number">
+                01
+            </div>
+
+            <div class="question-content">
+
+                <p class="eyebrow">
+                    THE QUESTION
+                </p>
+
+                <h2>
+                    What makes<br>
+                    a great teacher?
+                </h2>
+
+                <div class="question-words">
+
+                    <span>KNOWLEDGE</span>
+                    <span>PATIENCE</span>
+                    <span>GUIDANCE</span>
+                    <span>IMPACT</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CODE
+        ================================================== -->
+
+        <section class="code-section scene">
+
+            <div class="section-number">
+                02
+            </div>
+
+            <div class="code-window">
+
+                <div class="window-top">
+
+                    <div class="window-dots">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+
+                    <span>
+                        teacher.js
+                    </span>
+
+                </div>
+
+                <div class="code-body">
+
+                    <div class="code-line">
+                        <span class="line-number">01</span>
+                        <span class="code-text">
+                            const teacher = {
+                        </span>
+                    </div>
+
+                    <div class="code-line">
+                        <span class="line-number">02</span>
+                        <span class="code-text indent">
+                            patience: true,
+                        </span>
+                    </div>
+
+                    <div class="code-line">
+                        <span class="line-number">03</span>
+                        <span class="code-text indent">
+                            guidance: true,
+                        </span>
+                    </div>
+
+                    <div class="code-line">
+                        <span class="line-number">04</span>
+                        <span class="code-text indent">
+                            knowledge: "shared",
+                        </span>
+                    </div>
+
+                    <div class="code-line">
+                        <span class="line-number">05</span>
+                        <span class="code-text indent">
+                            impact: "lasting"
+                        </span>
+                    </div>
+
+                    <div class="code-line">
+                        <span class="line-number">06</span>
+                        <span class="code-text">
+                            };
+                        </span>
+                    </div>
+
+                    <div class="code-line execute">
+                        <span class="line-number">07</span>
+                        <span class="code-text">
+                            teacher.changeFuture();
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <p class="code-caption">
+                EVERY LINE MATTERS.
+            </p>
+
+        </section>
+
+
+        <!-- =================================================
+             EXPLOSION
+        ================================================== -->
+
+        <section class="explosion scene">
+
+            <div class="explosion-word word-1">
+                HTML
+            </div>
+
+            <div class="explosion-word word-2">
+                CSS
+            </div>
+
+            <div class="explosion-word word-3">
+                JAVASCRIPT
+            </div>
+
+            <div class="explosion-word word-4">
+                LOGIC
+            </div>
+
+            <div class="explosion-word word-5">
+                ERROR
+            </div>
+
+            <div class="explosion-word word-6">
+                TRY
+            </div>
+
+            <div class="explosion-word word-7">
+                FAIL
+            </div>
+
+            <div class="explosion-word word-8">
+                LEARN
+            </div>
+
+            <div class="explosion-word word-9">
+                BUILD
+            </div>
+
+            <div class="explosion-center">
+                KEEP GOING.
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             TEACHER REVEAL
+        ================================================== -->
+
+        <section class="teacher scene">
+
+            <canvas id="teacherCanvas"></canvas>
+
+            <div class="teacher-content">
+
+                <p class="eyebrow">
+                    THE PERSON BEHIND THE LESSON
+                </p>
+
+                <div class="teacher-name">
+
+                    <span>BASHIR</span>
+                    <span>HUSSAIN</span>
+                    <span>EBRAHIMI</span>
+
+                </div>
+
+                <div class="teacher-tags">
+
+                    <span>TEACHER</span>
+                    <span>MENTOR</span>
+                    <span>GUIDE</span>
+
+                </div>
+
+                <p class="teacher-quote">
+                    Not everyone who teaches leaves a lesson behind.
+                    Some leave a direction.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             LESSONS
+        ================================================== -->
+
+        <section class="lessons scene">
+
+            <div class="lessons-heading">
+
+                <p class="eyebrow">
+                    WHAT REMAINS
+                </p>
+
+                <h2>
+                    More than<br>
+                    a lesson.
+                </h2>
+
+            </div>
+
+            <div class="lesson-grid">
+
+                <article class="lesson-card">
+                    <span>01</span>
+                    <h3>THINK</h3>
+                    <p>
+                        Look beyond the obvious.
+                    </p>
+                </article>
+
+                <article class="lesson-card">
+                    <span>02</span>
+                    <h3>TRY</h3>
+                    <p>
+                        Turn ideas into action.
+                    </p>
+                </article>
+
+                <article class="lesson-card">
+                    <span>03</span>
+                    <h3>LEARN</h3>
+                    <p>
+                        Let every mistake teach you.
+                    </p>
+                </article>
+
+                <article class="lesson-card">
+                    <span>04</span>
+                    <h3>GROW</h3>
+                    <p>
+                        Keep becoming better.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             TERMINAL
+        ================================================== -->
+
+        <section class="terminal-section scene">
+
+            <div class="terminal">
+
+                <div class="terminal-header">
+                    SYSTEM_ANALYSIS
+                </div>
+
+                <div class="terminal-body">
+
+                    <p>&gt; initializing...</p>
+                    <p>&gt; searching for impact...</p>
+                    <p>&gt; analyzing lessons...</p>
+                    <p>&gt; measuring patience...</p>
+                    <p>&gt; calculating inspiration...</p>
+
+                    <p class="terminal-result">
+                        &gt; RESULT:
+                    </p>
+
+                    <strong>
+                        FOUND.
+                    </strong>
+
+                    <p class="terminal-teacher">
+                        TEACHER: BASHIR HUSSAIN EBRAHIMI
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CONSTELLATION
+        ================================================== -->
+
+        <section class="constellation scene">
+
+            <canvas id="constellationCanvas"></canvas>
+
+            <div class="constellation-content">
+
+                <p class="eyebrow">
+                    THE CONNECTION
+                </p>
+
+                <h2>
+                    EVERY LESSON<br>
+                    CONNECTS.
+                </h2>
+
+                <div class="connection">
+                    KNOWLEDGE
+                    <span>→</span>
+                    CONFIDENCE
+                    <span>→</span>
+                    FUTURE
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             THE MESSAGE THAT WAS NEVER WRITTEN
+        ================================================== -->
+
+        <section
+            class="message-scene"
+            id="messageScene"
+        >
+
+            <div class="message-progress"></div>
+
+            <!-- PHASE 01 -->
+
+            <div
+                class="message-phase terminal-phase"
+                id="terminalPhase"
+            >
+
+                <div class="terminal-message">
+
+                    <div class="terminal-command">
+                        <span>&gt;</span>
+                        <span id="typingCommand"></span>
+                        <span class="cursor"></span>
+                    </div>
+
+                    <div
+                        class="system-lines"
+                        id="systemLines"
+                    >
+
+                        <p>
+                            &gt; searching for the right words...
+                        </p>
+
+                        <p>
+                            &gt; measuring the impact...
+                        </p>
+
+                        <p>
+                            &gt; searching again...
+                        </p>
+
+                        <p class="system-error">
+                            &gt; insufficient words.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PHASE 02 -->
+
+            <div
+                class="message-phase impossible-phase"
+                id="impossiblePhase"
+            >
+
+                <div class="impossible-line"></div>
+
+                <h2>
+                    Some things cannot be<br>
+                    written in code.
+                </h2>
+
+                <span class="impossible-index">
+                    00 / 01
+                </span>
+
+            </div>
+
+
+            <!-- PHASE 03 -->
+
+            <div
+                class="message-phase paper-phase"
+                id="paperPhase"
+            >
+
+                <div class="memory memory-1">
+                    PATIENCE
+                </div>
+
+                <div class="memory memory-2">
+                    GUIDANCE
+                </div>
+
+                <div class="memory memory-3">
+                    KEEP GOING
+                </div>
+
+                <div class="memory memory-4">
+                    LEARN
+                </div>
+
+                <div class="memory memory-5">
+                    IMPACT
+                </div>
+
+                <div class="paper-light"></div>
+
+                <article class="letter-paper">
+
+                    <div class="paper-top">
+
+                        <span>
+                            A PERSONAL NOTE
+                        </span>
+
+                        <span>
+                            2026
+                        </span>
+
+                    </div>
+
+                    <div class="paper-rule"></div>
+
+                    <div class="letter-content">
+
+                        <p
+                            class="letter-line"
+                            data-delay="0"
+                        >
+                            Dear Ustad Bashir,
+                        </p>
+
+                        <p
+                            class="letter-line"
+                            data-delay="1"
+                        >
+                            Some teachers teach a subject.
+                            Some teach a skill.
+                            And some quietly teach us
+                            how to keep going.
+                        </p>
+
+                        <p
+                            class="letter-line"
+                            data-delay="2"
+                        >
+                            Thank you for your patience,
+                            your guidance, and for believing
+                            that learning is more than simply
+                            finding the correct answer.
+                        </p>
+
+                        <p
+                            class="letter-line"
+                            data-delay="3"
+                        >
+                            Every correction became a lesson.
+                            Every challenge became an opportunity
+                            to understand more deeply.
+                        </p>
+
+                        <p
+                            class="letter-line"
+                            data-delay="4"
+                        >
+                            What we learn from a teacher does not
+                            always stay inside a classroom.
+                        </p>
+
+                        <p
+                            class="letter-line"
+                            data-delay="5"
+                        >
+                            Sometimes, it becomes part of
+                            who we become.
+                        </p>
+
+                        <div class="signature-area">
+
+                            <p
+                                class="letter-line"
+                                data-delay="6"
+                            >
+                                With gratitude,
+                            </p>
+
+                            <svg
+                                class="signature"
+                                viewBox="0 0 420 110"
+                                aria-hidden="true"
+                            >
+
+                                <path
+                                    d="M20 75
+                                    C42 30 48 88 73 58
+                                    C91 36 100 42 102 65
+                                    C104 91 125 93 138 66
+                                    C150 40 158 41 159 67
+                                    C161 91 179 89 190 66
+                                    C200 45 209 47 211 68
+                                    C214 91 233 92 246 69
+                                    C260 44 268 48 270 69
+                                    C272 90 290 90 302 67
+                                    C313 46 324 47 324 70
+                                    C324 87 338 87 350 71
+                                    C363 54 375 56 394 66"
+                                />
+
+                            </svg>
+
+                            <div class="signature-name">
+                                YOUR STUDENT
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="paper-footer">
+                        BASHIR HUSSAIN EBRAHIMI
+                        <span>•</span>
+                        TEACHER'S DAY
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- PHASE 04 -->
+
+            <div
+                class="message-phase final-message-phase"
+                id="finalMessage"
+            >
+
+                <div class="final-message-inner">
+
+                    <div class="final-small">
+                        THE LETTER ENDS.
+                    </div>
+
+                    <h2>
+                        THE LESSON
+                        <span>DOESN'T.</span>
+                    </h2>
+
+                    <div class="final-name">
+                        BASHIR HUSSAIN EBRAHIMI
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             FINAL
+        ================================================== -->
+
+        <section class="final scene">
+
+            <div class="final-code">
+
+                <span>
+                    function greatTeacher() {
+                </span>
+
+                <span class="final-indent">
+                    return
+                    "BASHIR HUSSAIN EBRAHIMI";
+                </span>
+
+                <span>
+                    }
+                </span>
+
+            </div>
+
+            <div class="final-message">
+
+                <p>
+                    PROGRAM FINISHED.
+                </p>
+
+                <h2>
+                    THANK YOU,<br>
+                    USTAD BASHIR.
+                </h2>
+
+                <span>
+                    The code may end.<br>
+                    The lesson doesn't.
+                </span>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
